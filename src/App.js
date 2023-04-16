@@ -54,7 +54,7 @@ const App = () => {
 
   return (
     hasLoaded && (
-      <div className='w-full h-full flex justify-center items-center'>
+      <div className='w-full h-full flex flex-col gap-8 justify-center items-center'>
         <Autocomplete setSelectedPokemon={setSelectedPokemon} />
         <PokemonCard pokemon={pokemon} />
         {/* <p>Pokemon name: {pokemon.name}</p>

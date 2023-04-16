@@ -30,13 +30,19 @@ const Autocomplete = ({ setSelectedPokemon }) => {
 
   const handlePokemonClick = (event) => {
     setSelectedPokemon(event.target.textContent);
-
+    // setTypeOneMultiplier([]);
     setInputValue("");
   };
 
   return (
-    <div>
-      <input type='text' value={inputValue} onChange={handleInputChange} />
+    <div className='max-h-[300px] mt-4 overflow-y-scroll no-scrollbar'>
+      <p>search for a pokemon</p>
+      <input
+        type='text'
+        value={inputValue}
+        onChange={handleInputChange}
+        className='border border-white outline-none'
+      />
       <ul>
         {inputValue.length > 2 &&
           newPokemon.map((pokemon) => (
