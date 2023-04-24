@@ -33,13 +33,6 @@ const PokemonCard = ({ pokemon }) => {
   console.log("typeOneMult", typeOneMultiplier);
   console.log("typeTwoMult", typeTwoMultiplier);
 
-  // if (pokemon.types.length > 1) {
-  //   typeOneMultiplier.forEach((value, index) => {
-  //     let calc = value[1] * typeTwoMultiplier[index][1];
-  //     console.log(`${value[0]}: ${calc}`);
-  //   });
-  // }
-
   return (
     // card-wrapper
     <div className='w-[60%] md:w-[400px] h-[80%] md:h-[600px] border rounded-xl border-blue-500 flex flex-col justify-center items-center'>
@@ -87,9 +80,23 @@ const PokemonCard = ({ pokemon }) => {
             ? typeOneMultiplier.map((value, index) => {
                 let calc = value[1] * typeTwoMultiplier[index][1];
                 if (calc === 2) {
-                  return <p className='text-orange-400'>{value[0]} x2</p>;
+                  return (
+                    <div className='flex justify-between'>
+                      <p className={`${value[0]}-type w-full mb-2`}>
+                        <span className='text-gray-900 font-bold '>
+                          {value[0]} x2
+                        </span>
+                      </p>
+                    </div>
+                  );
                 } else if (calc === 4) {
-                  return <p className='text-red-600'>{value[0]} x4</p>;
+                  return (
+                    <p className={`${value[0]}-type w-full mb-2`}>
+                      <span className='text-gray-900 font-bold '>
+                        {value[0]} x4
+                      </span>
+                    </p>
+                  );
                 }
               })
             : typeOneMultiplier.map((value) => {

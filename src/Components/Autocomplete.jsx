@@ -41,7 +41,7 @@ const Autocomplete = ({ setSelectedPokemon }) => {
         type='text'
         value={inputValue}
         onChange={handleInputChange}
-        className='border border-white outline-none'
+        className='border border-white outline-none px-2'
       />
       <ul>
         {inputValue.length > 2 &&

@@ -24,3 +24,77 @@ html, body, #root{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+.Normal-type{
+  background: #A8A878; border-style: solid none; border-width: 1px; border-top-color: #D8D8D0; border-bottom-color: #705848; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Fire-type{
+  background: #F08030; border-style: solid none; border-width: 1px; border-top-color: #F8D030; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Water-type{
+  background: #6890F0; border-style: solid none; border-width: 1px; border-top-color: #98D8D8; border-bottom-color: #7038F8; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Electric-type{
+  background: #F8D030; border-style: solid none; border-width: 1px; border-top-color: #F8F878; border-bottom-color: #F85888; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Grass-type{
+  background: #78C850; border-style: solid none; border-width: 1px; border-top-color: #A8E050; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Ice-type{
+  background: #98D8D8; border-style: solid none; border-width: 1px; border-top-color: #B8E0F8; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Fighting-type{
+  background: #C03028; border-style: solid none; border-width: 1px; border-top-color: #F08030; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Poison-type{
+  background: #A040A0; border-style: solid none; border-width: 1px; border-top-color: #C03028; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Ground-type{
+  background: #E0C068; border-style: solid none; border-width: 1px; border-top-color: #F8D030; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Flying-type{
+  background: #A890F0; border-style: solid none; border-width: 1px; border-top-color: #C03028; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+} 
+
+.Psychic-type{
+  background: #F85888; border-style: solid none; border-width: 1px; border-top-color: #F85888; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Bug-type{
+  background: #A8B820; border-style: solid none; border-width: 1px; border-top-color: #C8D030; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Rock-type{
+  background: #B8A038; border-style: solid none; border-width: 1px; border-top-color: #F8D030; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Ghost-type{
+  background: #705898; border-style: solid none; border-width: 1px; border-top-color: #705898; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Dragon-type{
+  background: #7038F8; border-style: solid none; border-width: 1px; border-top-color: #7038F8; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Dark-type{
+  background: #705848; border-style: solid none; border-width: 1px; border-top-color: #705848; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Steel-type{
+  background: #B8B8D0; border-style: solid none; border-width: 1px; border-top-color: #B8B8D0; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+.Fairy-type{
+  background: #EE99AC; border-style: solid none; border-width: 1px; border-top-color: #EE99AC; border-bottom-color: #A040A0; border-radius: 5px; padding: 0.15em; font-size: 9pt; color: #F8F8F8; text-shadow: 0px 1px 1px #807870;
+}
+
+
